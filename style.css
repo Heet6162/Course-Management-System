@@ -1,0 +1,102 @@
+/* General Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+/* Background Image Styling */
+.background-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Container Styling */
+.form-container {
+    width: 500px;
+    padding: 20px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+/* Logo Styling */
+.logo {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 80px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button Styling */
+.form-container button {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-container button:hover {
+    background-color: #333;
+}
+
+/* Link Styling */
+.form-container a {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.form-container a:hover {
+    color: #333;
+    text-decoration: underline;
+}
